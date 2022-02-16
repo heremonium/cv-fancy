@@ -5,6 +5,12 @@ body {
   font-family: 'Merriweather', serif;
 }
 
+hr {
+  border: 5px dotted;
+  width: 15%;
+  color: black;
+}
+
 h1 {
   font-size: 90px;
   color: #66BFBF;
@@ -46,12 +52,35 @@ h3 {
   position: relative;
 }
 .middle-container {
-
+padding-bottom: 30px;
 
 }
 
-.bottom-container {
+.button {
+  background-color: #11999E;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+}
 
+.bottom-container {
+  background-color: #66BFBF;
+  height: 200px;
+  align-content: center;
+  padding: 100px;
+}
+
+.footer-link {
+  color: #11999E
+}
+.copyright {
+  color:#EAF6F6
 }
 
 .pro {
@@ -61,4 +90,22 @@ h3 {
 .skill-row {
   width: 50%;
   margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.dhelpra {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.pc-gaming-img {
+  width: 25%;
+  float: left;
+  padding: 30px;
+}
+
+.peshku-img {
+  width:25%;
+  float: left;
 }
